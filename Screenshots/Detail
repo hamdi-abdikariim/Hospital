@@ -1,0 +1,15 @@
+## 1. Outpatient Details
+
+The first output shows the details of an outpatient named Ahmed. His consultation fee is $20, and his laboratory charge is $15. The `CalculateBill()` method adds both charges to calculate the total bill.
+
+**Calculation:** $20 + $15 = **$35**
+
+The result demonstrates inheritance because the `Outpatient` class gets the patient's name and consultation fee from the `Patient` superclass.
+
+## 2. Inpatient Details
+
+The second output shows the details of an inpatient named Amina. Her consultation fee is $30, and the room charge is $50 per day for 4 days. The `CalculateBill()` method multiplies the room charge by the number of days and adds the consultation fee.
+
+**Calculation:** (4 × $50) + $30 = **$230**
+
+The result demonstrates inheritance because the `Inpatient` class gets the patient's name and consultation fee from the `Patient` superclass. It also calculates the total hospital bill based on the room charge and number of days.
